@@ -1,0 +1,91 @@
+/* Reset.css @CamiloDev */
+
+/* Remueve todos los márgenes, paddings y bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajusta el tamaño de fuente al 100% */
+html {
+    font-size: 100%;
+}
+
+/* Define un line-height básico */
+body {
+    line-height: 1.6;
+}
+
+/* Remueve las decoraciones de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina los estilos predeterminados de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Configura un diseño de borde para imágenes y tablas */
+img,
+table {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remueve el borde por defecto de las tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Ajusta la apariencia de los formularios y botones */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Elimina los estilos predeterminados de campos de formulario */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+/* Asegura que los botones no tengan borde */
+button {
+    cursor: pointer;
+}
+
+/* Ajusta la apariencia de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* Asegura que los elementos de bloque ocupen el ancho completo */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
