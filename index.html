@@ -2,49 +2,60 @@
 <html lang="es">
 
 <head>
-  <!-- Etiquetas meta -->
+  <!-- etiquetas meta -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Título -->
-  <title>Encriptador | Alura Latam</title>
-  <!-- Hojas de estilos -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <!-- titulo -->
+  <title>Encriptador || Alura Latam</title>
+  <!-- icono -->
+  <link rel="shortcut icon" href="./Assets/Logo.png" type="image/x-icon" />
+  <!-- hojas de estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
 </head>
 
 <body>
-  <!-- Encabezado -->
+  <!-- encabezado -->
   <header class="header">
-    <img class="header__logo" src="./assets/logo.png" alt="Logo Alura Latam" />
+    <div class="header__logo">
+      <img src="./Assets/Logo.png" alt="Logo Alura Latam" />
+    </div>
   </header>
-  <!-- Contenido principal -->
-  <main class="main">
-    <!-- Contenido de la izquierda -->
-    <div class="main__left">
-      <textarea class="main__left__textarea" cols="30" rows="6" id="inputText"
-        placeholder="Ingrese el texto aquí"></textarea>
-      <p class="main__left__info">
-        <img src="./assets/vector.png" alt="Signo de exclamación" class="main__left__info-icon" />
-        Solo letras minúsculas y sin acentos
-      </p>
-      <div class="main__left__button-container">
-        <button class="main__left__button btn__encriptar" id="encryptButton">Encriptar</button>
-        <button class="main__left__button btn__desencriptar" id="decryptButton">Desencriptar</button>
+  <!-- contenido principal -->
+  <main>
+    <section class="encriptador">
+      <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="encriptador__aviso">
+        <img class="img_aviso" src="./Assets/Vector.png" alt="Signo de Exclamacion" />
+        <p class="texto__aviso">Solo letras minúsculas y sin acentos</p>
       </div>
-    </div>
-    <!-- Contenido de la derecha -->
-    <div class="main__right">
-      <textarea class="main__rigth__textarea" cols="30" rows="6"></textarea>
-      <div class="main__right__img-container">
-        <img class="main__right__img" src="./assets/muñeco.png" alt="Muñeco azul con lupa mirando un diamante." />
+      <div class="encriptador__contenedor">
+        <button type="submit" class="btn__encriptar">Encriptar</button>
+        <button type="submit" class="btn__desencriptar">Desencriptar</button>
       </div>
-      <div class="main__right__info">
-        <h2 class="main__right__info-title">Ningún mensaje fue encontrado</h2>
-        <p class="main__right__info-text">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </section>
+    <!-- tarjeta de la derecha -->
+    <section class="tarjeta">
+      <div class="tarjeta__contenedor">
+        <img class="img__muñeco" src="Assets/Muñeco.png" alt="Imagen de muñeco azul">
+        <p class="texto__uno">Ningún mensaje fue encontrado</p>
+          <p class="texto__dos">Ingresa el texto que desees encriptar o desencriptar.</p>
       </div>
-      <button class="main__right__button">Copiar</button>
-    </div>
+      <textarea type="mensaje" class="evaluar" readonly ></textarea>
+      <button type="submit" class="btn__copiar">Copiar</button>
+    </section>
   </main>
-  <script src="./js/encriptador.js"></script>
+  <!-- pie de pagina -->
+    <footer class="footer">
+      <p class="copyright">&copy; copyright 2024-Encriptador de Texto- Desarrollado por Cristian Camilo Dosman. Todos los derechos reservados.</p>
+      <a href="https://www.linkedin.com/in/cristian-camilo-dosman-jimenez-b0848b22b/">
+        <img class="linkedin" src="./Assets/linkedin.svg" alt="Logo linkedin"/>
+      </a>
+      <a href="https://github.com/TaibseGamer">
+        <img class="github" src="./Assets/github.svg" alt="Logo github"/>
+      </a>
+    </footer>
+ 
 </body>
 
 </html>
