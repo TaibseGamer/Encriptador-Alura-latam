@@ -26,6 +26,7 @@ Este proyecto permite a los usuarios encriptar y desencriptar mensajes de texto 
 ## Tecnologías Utilizadas
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Instalación
 1. Clona este repositorio en tu máquina local:
