@@ -63,9 +63,6 @@ Este proyecto permite a los usuarios encriptar y desencriptar mensajes de texto 
     ```
 5. Abre un pull request para que revisemos tus cambios.
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más información.
-
 ## Contacto
 Cristian Camilo Dosman Jimenez - [camfit2016@gmail.com](mailto:camfit2016@gmail.com)
 
